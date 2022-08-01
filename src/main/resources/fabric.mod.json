@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bevolved",
+  "version": "${version}",
+
+  "name": "Babric Bevolved",
+  "description": "A simple Babric library for modder's convenience!",
+  "authors": [
+    "Pairjax"
+  ],
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pearjam.bevolved.Bevolved"
+    ]
+  },
+  "mixins": [
+    "bevolved.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
